@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./morp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:beige;
+}
+
+.container{
+    height: calc(100vh - 57px);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#zengin{
+    font-size: 50px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#normal{
+    font-size: 50px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
